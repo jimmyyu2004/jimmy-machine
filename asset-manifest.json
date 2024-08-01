@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/jimmy-machine/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/jimmy-machine/static/js/main.fec4b7fb.chunk.js",
+    "main.js.map": "/jimmy-machine/static/js/main.fec4b7fb.chunk.js.map",
+    "runtime-main.js": "/jimmy-machine/static/js/runtime-main.5269c24e.js",
+    "runtime-main.js.map": "/jimmy-machine/static/js/runtime-main.5269c24e.js.map",
+    "static/js/2.3404488d.chunk.js": "/jimmy-machine/static/js/2.3404488d.chunk.js",
+    "static/js/2.3404488d.chunk.js.map": "/jimmy-machine/static/js/2.3404488d.chunk.js.map",
+    "static/js/3.2dd38a63.chunk.js": "/jimmy-machine/static/js/3.2dd38a63.chunk.js",
+    "static/js/3.2dd38a63.chunk.js.map": "/jimmy-machine/static/js/3.2dd38a63.chunk.js.map",
+    "index.html": "/jimmy-machine/index.html",
+    "precache-manifest.e5a9c0b127ce755af0417264f943c8f4.js": "/jimmy-machine/precache-manifest.e5a9c0b127ce755af0417264f943c8f4.js",
+    "service-worker.js": "/jimmy-machine/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/jimmy-machine/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.3404488d.chunk.js.LICENSE.txt": "/jimmy-machine/static/js/2.3404488d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5269c24e.js",
+    "static/js/2.3404488d.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.fec4b7fb.chunk.js"
+  ]
+}
