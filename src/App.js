@@ -16,10 +16,10 @@ function App() {
     event.preventDefault();
     try {
         const location = {latitude, longitude, radius}
-        const response = await axios.post('http://127.0.0.1:5000/api/generate_places', location)
+        const response = await axios.post('https://flask-render-9wdi.onrender.com/api/generate_places', location)
         const generatedPlacesPath = response.data.generatedPlacesPath;
 
-        setDownload(`http://127.0.0.1:5000/api/download_csv?filePath=${generatedPlacesPath}`)
+        setDownload(`https://flask-render-9wdi.onrender.com/api/download_csv?filePath=${generatedPlacesPath}`)
 
     } catch (error) {
         console.error('Error processing data', error);
@@ -81,9 +81,9 @@ function App() {
         console.log('Parsed data:', data);
         
         try {
-          const response = await axios.post('http://127.0.0.1:5000/api/scrape_contacts', {data});
+          const response = await axios.post('https://flask-render-9wdi.onrender.com/api/scrape_contacts', {data});
           const generatedContactsPath = response.data.generatedContactsPath;
-          setContacts(`http://127.0.0.1:5000/api/download_contacts_csv?filePath=${generatedContactsPath}`);
+          setContacts(`https://flask-render-9wdi.onrender.com/api/download_contacts_csv?filePath=${generatedContactsPath}`);
         } catch (error) {
           console.error('Error uploading file:', error);
         }
